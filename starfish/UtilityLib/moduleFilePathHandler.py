@@ -377,7 +377,7 @@ def saveConfigFile(configurations):
             if option in existingOptions:
                 Config.set('Directory Paths', option, config)
                     
-    with open(getFilePath('configFile', '','',  'write'), 'wb') as configfile:
+    with open(getFilePath('configFile', '','',  'write'), 'w') as configfile:
         Config.write(configfile)
     
 def updateKnownWorkingDirectories():
