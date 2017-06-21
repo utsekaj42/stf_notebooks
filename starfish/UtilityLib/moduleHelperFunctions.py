@@ -25,7 +25,7 @@ def getGitHash():
     #branchName   = subprocess.check_output(["git", "describe",'--all'])
     
     try:
-        gitHash = subprocess.check_output("git rev-parse HEAD", shell=True, stderr=subprocess.STDOUT)
+        gitHash = subprocess.check_output("git rev-parse HEAD", shell=True, stderr=subprocess.STDOUT).decode()
     except subprocess.CalledProcessError as e:
         print(e)
         gitHash = "not available"
@@ -34,7 +34,7 @@ def getGitHash():
     
     # if 0 no changes otherwise uncommitted changes exist
     try:
-        dirtyRepos = subprocess.check_output("git diff --quiet --exit-code", shell=True, stderr=subprocess.STDOUT)
+        dirtyRepos = subprocess.check_output("git diff --quiet --exit-code", shell=True, stderr=subprocess.STDOUT).decode()
     except subprocess.CalledProcessError as e:
         print(e)
         dirtyRepos = True
