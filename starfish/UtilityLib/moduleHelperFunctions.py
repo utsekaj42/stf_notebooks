@@ -29,7 +29,7 @@ def getGitHash():
     except subprocess.CalledProcessError as e:
         print(e)
         gitHash = "not available"
-    
+    print(gitHash) 
     gitHash  = gitHash.split('\n')[0]
     
     # if 0 no changes otherwise uncommitted changes exist
