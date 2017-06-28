@@ -1,6 +1,6 @@
 image:: http://mybinder.org/badge.svg :target: http://mybinder.org:/repo/utsekaj42/uqsa_tutorials
 
-Starfish Tutorial <ntnu.no/starfish>
+Starfish Tutorial www.ntnu.no/starfish
 
 This project contains the jupyter notebooks and slides for the Berkeley-NTNU UQSA Workshop on June 27th, 2017.
 
@@ -14,7 +14,7 @@ Step 2 In the GitHub repo or URL field enter: https://github.com/utsekaj42/uqsa_
 
 Step 3 Click launch and wait for the Dockerfile to build and then it will launch a Jupyter Notebook
 
-Step 4 navigate to the index.ipynb python notebookin the Jupyter interface.
+Step 4 navigate to the starfish_single_vessel.ipynb python notebook in the Jupyter interface.
 
 Contact
 
