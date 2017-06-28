@@ -1,4 +1,4 @@
-image:: http://mybinder.org/badge.svg :target: http://mybinder.org:/repo/utsekaj42/uqsa_tutorials
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/utsekaj42/uqsa_tutorials)
 
 Starfish Tutorial www.ntnu.no/starfish
 
